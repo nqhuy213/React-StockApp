@@ -1,0 +1,13 @@
+@import '../../../styles//shared.scss';
+
+tr {
+  border-bottom: 2px solid white
+}
+
+tr.border-bottom td {
+  border-bottom: 2px solid #e6eaef;
+}
+
+tr.active:hover{
+  background-color: rgba($color: $light-gray-color, $alpha: 0.5);
+}

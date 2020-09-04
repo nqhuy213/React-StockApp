@@ -1,0 +1,25 @@
+@import '../../styles/shared.scss';
+
+.form-container{
+  background-color: $gray-white-color;
+  width: 350px;
+  height: 450px;
+  position: absolute;
+  left: 35px;
+  top:-35px;
+  transition: transform 0.5s ease-in-out;
+  box-shadow: $box-shadow-var;
+  text-align: center;
+  
+  &.login{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 110px;
+  }
+  &.register{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 80px;
+    transform: translateX(97%);
+  }
+}

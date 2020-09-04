@@ -1,0 +1,29 @@
+@import '../../../styles/shared.scss';
+
+.overlay-container{
+  background: linear-gradient(to right, $light-blue-color, $dark-blue-color);
+  width: 760px;
+  height: 380px;
+  display: flex;
+  box-shadow: $box-shadow-var;
+  border-radius: 4px;
+}
+.overlay-panel {
+  color: $gray-white-color;
+	text-align: center;
+  transition: transform 0.6s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.overlay-left {
+  width: 50%;
+  height: inherit;
+}
+.overlay-right{
+  width: 50%;
+  height: inherit;
+}
+

@@ -1,0 +1,87 @@
+@import '../../styles/shared.scss';
+
+.center-container{
+  display: inline-block;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-search{
+  display: flex;
+  margin-top: 30px;
+  padding-left: 500px;
+  span{
+    font-size: large;
+    margin-right: 10px;
+  }
+  align-items: center;
+  .date-picker{
+    margin-right: 10px;
+    width: 150px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 35px;
+  }
+}
+
+.charts-container{
+  margin: 70px 465px;
+}
+
+.stock-chart-container{
+  
+  animation: fadein 1.5s;
+}
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.stock-details-container{
+  padding-top: 40px;
+}
+.btn-search{
+  background-color: $dark-blue-color;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  width: 100px;
+  height: 35px;
+}
+
+.quote-table-container{
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stock-header{
+  padding-left: 500px;
+  span{
+    font-size: 35px;
+  }
+}
+
+.request-login{
+  padding-left: 500px;
+
+  padding-top: 20px;
+  font-size: large;
+  a{
+    text-decoration: underline;
+  }
+}
+
+// .loader{
+//   position: absolute;
+//   left: 50%;
+//   top: 50%;
+//   z-index: 1;
+//   width: 150px;
+//   height: 150px;
+//   margin: -75px 0 0 -75px;
+  
+// }

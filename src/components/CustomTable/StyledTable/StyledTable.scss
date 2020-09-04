@@ -1,0 +1,8 @@
+@import '../../../styles//shared.scss';
+
+.data-table{
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 50%;
+  box-shadow: $box-shadow-var;
+}

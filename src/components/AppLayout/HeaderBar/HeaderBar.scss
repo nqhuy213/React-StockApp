@@ -1,0 +1,64 @@
+@import '../../../styles/shared.scss';
+
+.bar-container{
+  background: white;
+  height: 100px;
+  width: 100%;
+  box-shadow: $box-shadow-var;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left:  300px;
+  padding-right: 300px;
+  z-index: 10;
+}
+
+.logo-container{
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  span{
+    color: $primary-button-color;
+    font-size: 50px;
+    line-height: 0px;
+  }
+}
+
+.login-button{
+  font-size: 18px;
+  line-height: 0px;
+}
+
+.register-button{
+  font-size: 18px;
+  line-height: 0px;
+}
+
+.authentication-buttons{
+  width: 260px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-slogan{
+  left: 620px;
+  position: absolute;
+  letter-spacing: 1.1px;
+  line-height: 15px;
+  display: flex;
+  justify-content: center;
+  .slogan{
+    font-size: 30px;
+    font-weight: 600;
+    color: $dark-gray-color;
+    span{
+      color: $dark-blue-color;
+      font-size: 35px;
+    }
+  }
+  
+}

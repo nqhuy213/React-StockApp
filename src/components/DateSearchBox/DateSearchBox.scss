@@ -1,0 +1,29 @@
+@import '../../styles/shared.scss';
+.date-search{
+  display: flex;
+  margin-top: 30px;
+  padding-left: 500px;
+  span{
+    font-size: large;
+    margin-right: 10px;
+  }
+  align-items: center;
+  .date-picker{
+    margin-right: 10px;
+    width: 150px;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    height: 35px;
+  }
+}
+
+.btn-search{
+  background-color: $dark-blue-color;
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
+  width: 100px;
+  height: 35px;
+}

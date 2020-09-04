@@ -1,0 +1,68 @@
+@import '../../../styles/shared.scss';
+
+.table-header-container{
+  height: 50px;
+  background: #e6eaef;
+  border-radius: 4px;
+  border-right: solid 2px white;
+}
+
+.table-header-container:hover{
+  background: $light-gray-color;
+  cursor: pointer;
+}
+.table-header-container > * {
+  pointer-events: all;
+}
+
+
+.table-header-wrapper {
+  padding: 5px 20px;
+  display: flex;
+}
+
+.table-header-text{
+  color: $dark-gray-color;
+  font-weight: 500;
+  font-size: 15px;
+  margin: auto;
+}
+
+
+.search-box-container{ 
+  display: flex;
+  position: relative;
+  margin-left: 20px;
+}
+
+
+.search-icon {
+  position: absolute;
+  height: 18px;
+  width: 18px;
+  top: 6px;
+  left: 7px;
+  z-index: 1;
+  filter: $svg-gray;
+}
+.search-box {
+  position: relative;
+  width: 200px;
+  height: 30px;
+  border: none;
+  background: white;
+  padding-left: 30px;
+  border-radius: 5px;
+  color: black;
+  transition: background .2s ease-in-out,font-size .2s ease-in-out .1s;
+  opacity: 80%;
+  font-size: 14px;
+  
+}
+.search-box::placeholder {
+  color: white;
+  font-size: 12px;
+}
+.search-box:focus::placeholder{
+  color:transparent
+}

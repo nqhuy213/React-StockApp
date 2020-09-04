@@ -1,0 +1,22 @@
+@import '../../styles/shared.scss';
+
+table{
+  border-collapse: collapse;
+  table-layout: fixed;
+  width: 50%;
+  box-shadow: $box-shadow-var;
+}
+tr.border-bottom td {
+  border-bottom: 2px solid #e6eaef;
+}
+
+tr.active:hover{
+  background-color: $light-gray-color;
+}
+
+.loading-wrapper{
+  background: white;
+  opacity: 0.5;
+  position: relative;
+  z-index: 9998!important;
+}

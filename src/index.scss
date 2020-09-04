@@ -1,0 +1,132 @@
+@import './styles/shared.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+* {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+body{
+  background-color: $gray-white-color;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  padding-top: 100px;
+  
+}
+
+thead > tr > th{
+  background: #e6eaef;
+  border-radius: 4px;
+  border-right: solid 2px white;
+}
+
+img{
+  width:100%;
+  height:100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+  color: inherit!important;
+}
+
+h1 {
+	font-weight: bold;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	font-size: 14px;
+	font-weight: 100;
+	line-height: 20px;
+	letter-spacing: 0.5px;
+	margin: 20px 0 30px;
+}
+
+span {
+	font-size: 12px;
+}
+
+.ui.form{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  background-color: transparent;
+}
+
+.ui.form>button{
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  letter-spacing: 1.3px;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: $box-shadow-var;
+}
+
+
+.ui.form .field>input{
+  font-family: "Montserrat", sans-serif;
+  height: 50px;
+  padding: 8px;
+  font-size: larger;
+}
+
+
+
+.ui.form .field{
+  margin-bottom: 2px;
+}
+
+button {
+  font-family: "Montserrat", sans-serif;
+	color: $gray-white-color;
+  transition: transform 100ms ease-in-out;
+  width: 120px;
+  height: 50px;
+  border: none;
+  border-radius: 5px;
+  background-color: $primary-button-color;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+button.primary{
+  background-color: $primary-button-color;
+}
+
+button.secondary{
+  background-color: $secondary-button-color;
+}
+
+
+button:focus {
+	outline: none;
+}
+
+button.ghost {
+	background-color: transparent;
+  border: 1px solid white;
+  font-size: 1.3rem;
+  letter-spacing: 1.3px;
+}
+
+button:hover{
+  transform: scale(1.05)
+}
+
